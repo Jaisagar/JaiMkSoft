@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.card-container {
+    padding: 0;
+
+    height: auto;
+}
+
+.card-body {
+    width: 28.33%;
+    height: 650px;
+    margin: 15px;
+    padding: 20px;
+    background-color: bisque;
+    float: left;
+}
+
+.card-number {
+
+    padding: 20px;
+    width: 50px;
+    border-end-end-radius: 20px;
+    height: 50px;
+    background-color: blue;
+    border-start-start-radius: 20px;
+    margin-top: 20px;
+}
+
+.card-outher {
+    margin-top: 30px;
+
+    font-size: 32px;
+
+}
+
+.card-discription {
+    margin: 20px;
+    text-align: justify;
+    font-size: 16px;
+    color: #420bb5;
+}
+
+.readmore {
+    padding: 20px;
+    width: 90px;
+    line-height: 12px;
+    border-end-end-radius: 20px;
+    height: 9px;
+    background-color: blue;
+    border-start-start-radius: 20px;
+    color: yellow;
+    font-weight: bold;
+    margin-top: 17px;
+    margin-left: 11px;
+    margin-bottom: 20px;
+}
+
+.card-media {
+    
+    margin: 20px;
+}
+
+.midea {
+    display: flex;
+}
+
+.card-tag {
+    padding: 20px;
+    width: 90px;
+    line-height: 12px;
+    border-end-end-radius: 20px;
+    height: 9px;
+    background-color: #8f630d;
+    border-start-start-radius: 20px;
+    color: yellow;
+    font-weight: bold;
+    margin-top: 17px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.btn-grop-items {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 6px;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 7px;
+    text-transform: uppercase;
+    background-color: #876c15;
+    padding: 11px;
+}
+
+.btn-grop-items:hover {
+    font-size: 20px;
+    color: aliceblue;
+    margin: 7px;
+    border-top-left-radius: 20px;
+    text-transform: uppercase;
+    background-color: #2d065b;
+    padding: 11px;
+}
+
+.navbar {
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 0px;
+    background-color: #2b5b09;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.toll_free_banner {
+
+    position: fixed;
+    top: 14px;
+    height: 34px;
+    right: 0px;
+    background: #264FAD;
+    padding: 0px 0px 0px 0px;
+    color: #fff;
+    font-size: 24px;
+    z-index: 999999;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    box-shadow: 0px 0px 5px #353535;
+    width: 177px;
+    transition: all 0.9s ease-out 0s;
+
+}
+
+.call_to_connect {
+    width: 40px;
+    float: left;
+    background: #3e944d;
+    height: 34px;
+    text-align: center;
+}
+
+.toll_number {
+    margin-top: -32px;
+    padding-left: 54px;
+    float: left;
+
+    font-size: 22px;
+}
+
+.logo {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 6px;
+    font-size: 34px;
+    margin: 0px;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: 11px;
+    float: left;
+    color: white;
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgb(0 0 0 / 10%), 0 0 5px rgb(0 0 0 / 10%), 0 1px 3px rgb(0 0 0 / 30%), 0 3px 5px rgb(0 0 0 / 20%), 0 5px 10px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 20%), 0 20px 20px rgb(0 0 0 / 15%);
+}
